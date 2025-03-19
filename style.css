@@ -9,6 +9,15 @@ body{
     margin: 0;
    
 }
+a {
+    text-decoration: none;  /* Removes underline */
+    color: inherit;  /* Keeps text color same as parent */
+}
+
+a:focus, a:active {
+    outline: none;  /* Removes the blue outline */
+}
+
 .logo img{
     border: 10px solid #EEE5DA;
     border-radius: 50%;
